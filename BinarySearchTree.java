@@ -57,7 +57,7 @@ public class
                                 //predecssor is the largest in left subtree
           result = findLargest(root.left);
         }
-        //TODO: replacee true the condition in which we have to move right
+        //TODO: replace true the condition in which we have to move right
         else if(compareResult < 0) { //entry > root; move right
           result = predecessor(root.right, entry);
           if(result == null){ //couldn't find a predecssor;
